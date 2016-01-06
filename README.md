@@ -29,6 +29,15 @@ simp_le_vhosts:
     output: "/path/to/output/dir" # where to write the certificates
 ```
 
+```yaml
+simp_le_email:
+```
+
+Letsencrypt account email. eg.:
+```yaml
+simp_le_email: admin@example.com
+```
+
 ## Server configuration
 Your server needs to serve the challenge files over HTTP, here is an example
 configuration you can use for _nginx_ that will redirect every HTTP request to
